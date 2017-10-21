@@ -1,0 +1,25 @@
+{
+  "name": "elm-server-state",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js --exec babel-node",
+    "client": "webpack --config webpack.config.js -w --colors",
+    "start": "nf start"
+  },
+  "keywords": [],
+  "author": "Maxwell Simmer <maxwell.simmer@gmail.com> (http://maxwellsimmer.com)",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "body-parser": "^1.18.2",
+    "elm-webpack-loader": "^4.3.1",
+    "express": "^4.16.2",
+    "foreman": "^2.0.0",
+    "nodemon": "^1.12.1",
+    "webpack": "^3.8.1"
+  }
+}
